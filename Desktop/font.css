@@ -1,4 +1,73 @@
 @charset "UTF-8";
+/*
+development by Maya Jyoga
+update :2018/01/07
+
+【install fonts】
+
+M+ 1p
+森下浩司
+
+Rounded M+ 1c
+自家製フォント工房
+
+はんなり明朝 Hannari
+中井良尚 Yoshihisa Nakai
+
+こころ明朝 Kokoro
+中井良尚 Yoshihisa Nakai
+
+さわらび明朝 Sawarabi Mincho
+mishio
+
+さわらびゴシック Sawarabi Gothic
+mishio
+
+ニコモジ Nico Moji
+Ku-ku (Do-Font)
+
+ニクキュウ Nikukyu
+中井良尚 Yoshihisa Nakai
+
+Noto Sans Japanese
+西塚涼子 Ryoko Nishizuka
+
+
+Google Fonts provides an intuitive and robust directory of open source designer web fonts. Google Fonts Early Access is an experimental showcase for fonts that aren’t yet fully supported.
+Japanese typeface design and font development presents many interesting challenges, from the time it takes to design thousands and thousands of available characters, to the technical infrastructure required to serve large font files as web fonts. As standards and technology continue to develop, we invite designers and developers to experiment with the Japanese web fonts now available on Google Fonts Early Access.
+
+
+*/
+
+
+/*
+ * Sawarabi Gothic (Japanese) https://fonts.google.com/earlyaccess
+ */
+@font-face {
+  font-family: 'Sawarabi Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/sawarabigothic/v1/SawarabiGothic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/sawarabigothic/v1/SawarabiGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/sawarabigothic/v1/SawarabiGothic-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/sawarabigothic/v1/SawarabiGothic-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/sawarabigothic/v1/SawarabiGothic-Regular.ttf) format('truetype');
+}
+
+
+/*
+ * Nikukyu (Japanese) https://fonts.google.com/earlyaccess
+ */
+@font-face {
+  font-family: 'Nikukyu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nikukyu/v1/Nikukyu-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nikukyu/v1/Nikukyu-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nikukyu/v1/Nikukyu-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nikukyu/v1/Nikukyu-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nikukyu/v1/Nikukyu-Regular.ttf) format('truetype');
+}
 
 
   /*
@@ -319,4 +388,3 @@
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
-
